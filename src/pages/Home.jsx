@@ -1,6 +1,10 @@
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
+    <>
+    <Header />
     <section id="home" class="relative overflow-hidden bg-indigo-900 text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -71,6 +75,8 @@ function Home() {
         </div>
       </div>
     </section>
+    <Footer />
+    </>
   )
 }
 
